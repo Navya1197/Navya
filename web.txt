@@ -1,0 +1,227 @@
+1.what is HTML?
+HTML is used for for creating web pages .
+It is combination of hypertext and markup launguge.
+it is describe the structure of web pages.
+Hypertext provide the link between the pages. 
+
+
+2.what is an attribute?
+The each element have the attribute.
+Attribute define the additional information about the  element.
+Specify the attribute in start tag.
+
+3.Basic structure of html
+<!Doctype html>
+<html>
+<head>
+<title>welcome</title>
+<body>
+<p>welcome to html</p>
+</body>
+</html>
+
+4.Create a image in HTML?
+<img src="1.jpg">
+
+5.How to create hyperlink in html?
+<a herf="www.github.com">link</a>
+
+6.How to create syntax of table ?
+<body>
+<table>
+<tr>
+ <th></th>
+ <th></th>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+</tr>
+</body>
+
+7.How to create form in HTML?
+<body>
+<form>
+<div>
+<lable>enter the name</lable>
+<input type="text" name="name" placeholder="enter the name">
+</div>
+<div>
+<lable>enter the passward</lable>
+<input type="passward" name="passward" placeholder="enter the passward">
+</div>
+<div>
+<lable>enter the gender</lable>
+<input type="radio" name="gender">male
+<input type="radio" name="gender">female
+<input type="radio" name="gender">other
+</div>
+<div>
+<lable>enter the city</lable>
+<select>
+<option>select the city</option>
+<option>mysuru</option>
+<option>banglore</option>
+</select>
+</div>
+<div>
+<lable>enter the date of birth</lable>
+<input type="date" name="date" placeholder="enter the date of birth">
+</div>
+</body>
+</form>
+
+8.what is CSS ? syntax of CSS
+cascading style sheet.
+It is used to describe the how the html display on the sreen.
+It is used for style for html.
+
+9.What is External CSS?
+external css is one of the css declaration.
+when we use external css we can add single css link multiple html.
+<link>-----> external CSS.
+
+10.Selectors in CSS
+1.Simple selectors
+ this selectors used to select the html element based on name.
+* id selectors
+  this selectors used to select html element with id attribute.
+* class selectors
+  this selectors used to select html element with class attribute.
+* group selectors
+  this selectors used to select the all html element and give  the same style for html element.
+2.Combinators
+describe  the relationship between the selectors.
+*Descident selectors.
+div p 
+{
+
+}
+*child Selectors
+div>p
+{
+
+}
+*adjacent sibbling selectors
+div+p
+{
+
+}
+*general sibbling selectors
+div ~ p
+{
+
+}
+3.pseudo class selectors 
+4.pseudo element selectors.
+
+11.Box model
+It is container it include the padding,margin,some contents,border.
+Content: Some content inside the box.
+Padding: around the content.
+border:Around the padding and content.
+margin:Around the border.
+ex:
+<style>
+div
+{
+width:300px;
+border:30px color:red;
+margin:50px;
+padding:30px;
+}
+</style>
+<body>
+<div>welcome to css</css>
+</body>
+
+12.javascript
+javaScript is a scripting launguage to create the dynamically web application.
+it is an open source.
+
+13.Syntax  of javaScript
+   <!DOCtype html>
+   <html>
+   <head>
+   <script>
+    function add()
+{
+ console.log("welcoome")
+}
+ </script>
+ </head>
+<body>
+</body>
+ </html>
+
+14.diff between let,var, const?
+ var can be update
+var can not redeclare
+
+let can not be update
+let can be redeclare
+
+const can not update and redeclare.
+
+
+15. image
+           .flower{
+            position="absolute";
+            left="30px";
+            } 
+         .fruites{
+           position="absolute";
+           right="30px";
+             }
+<body>
+
+      <div> <img src="rcb.jpg", width="50px">  </div>
+     <div class="flower">Flower  </div>
+     <div class="fruits">Fruites </div>
+
+16.form validation
+function register(){
+   var name = documnet.getElementbyid("name")
+   console.log(name)
+   console.log(name.value)
+   
+   if(name.value == ''){
+   var nameMessage = documnet.getElementbyid("nameMessage")
+   nameMessage.innerHtml = 'please fill the above block'
+   nameMessage.style.color = 'red'
+   
+   }
+   
+   
+   
+   }
+   
+<form class="registerd">
+   <div>
+   <label>Name</label>
+   <input type="text" name = "name" id="name">  
+<span id="nameMessage"></span>   
+   </div>
+   
+   <div>
+   <button type="button" onclick="register()">Register</button>
+   </div>
+   </form>
+
+</body>
+   
+
+
+
+
+
+
+ 
+  
+
+
+
+
+
+
+
